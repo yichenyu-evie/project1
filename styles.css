@@ -1,27 +1,288 @@
-.mini {
-    background-color: bisque;
-}
-.j {
-    background-color:aqua;
-}
-
-.icon-header {
-    height: 90px;
+body{
     
 }
+
+.mini {
+    background-image: url(img/Menu-Bar.png);
+    background-repeat:round;
+    height:48px;
+    color:white;
+    padding-top: 11px;
+    display:block;
+}
+
+.minitext {
+    padding-top:4px;
+}
+
+.help {
+    margin-left: -15px
+}
+
+
+.icon-header {
+    height: 104px;
+    background-image: url(img/menubackground.png);
+    background-position: center; 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .icons {
-    background-color: azure;
     text-align: center;
+    padding-top: 15px;
+    
+}
+
+
+/*.sprite {
+    background-image: url(img/spritesheet-4.png);
+    background-repeat: no-repeat;
+    display: block;
+    margin: auto;
+}
+
+.sprite-Menu_030 {
+    width: 58px;
+    height: 73px;
+    background-position: -20px -20px;
+}
+
+.sprite-Menu_030:hover {
+    background-image: url(img/Menu_03.png);
+    background-position: center;
+}
+
+.sprite-Menu_050 {
+    width: 61px;
+    height: 73px;
+    background-position: -118px -20px;
+}
+
+.sprite-Menu_050:hover {
+    background-image: url(img/Menu_05.png);
+    background-position: center;
+}
+
+.sprite-Menu_070 {
+    width: 60px;
+    height: 73px;
+    background-position: -219px -20px;
+}
+
+.sprite-Menu_070:hover {
+    background-image: url(img/Menu_07.png);
+    background-position: center;
+}
+
+.sprite-Menu_090 {
+    width: 60px;
+    height: 73px;
+    background-position: -319px -20px;
+}
+
+.sprite-Menu_090:hover {
+    background-image: url(img/Menu_09.png);
+    background-position: center;
+}
+
+.sprite-Menu_110 {
+    width: 60px;
+    height: 73px;
+    background-position: -419px -20px;
+}
+
+.sprite-Menu_110:hover {
+    background-image: url(img/Menu_11.png);
+    background-position: center;
+}
+
+.sprite-Menu_130 {
+    width: 60px;
+    height: 73px;
+    background-position: -519px -20px;
+}
+
+.sprite-Menu_130:hover {
+    background-image: url(img/Menu_13.png);
+    background-position: center;
+}
+
+*/
+
+.sprite {
+    background-image: url(img/spritesheet-5.png);
+    background-repeat: no-repeat;
+    display: block;
+    margin: auto;
+    margin-bottom: 0;
+}
+
+.sprite-new_03 {
+    width: 60px;
+    height: 89px;
+    background-position: -20px -20px;
+}
+
+.sprite-new_03:hover {
+    background-image: url(img/images/Menu_03.png);
+    background-position: center;
+}
+
+.sprite-new_05 {
+    width: 61px;
+    height: 89px;
+    background-position: -120px -20px;
+}
+
+.sprite-new_05:hover {
+    background-image: url(img/images/Menu_05.png);
+    background-position: center;
+}
+
+.sprite-new_07 {
+    width: 60px;
+    height: 89px;
+    background-position: -221px -20px;
+}
+
+.sprite-new_07:hover {
+    background-image: url(img/images/Menu_07.png);
+    background-position: center;
+}
+
+.sprite-new_09 {
+    width: 60px;
+    height: 89px;
+    background-position: -321px -20px;
+}
+
+.sprite-new_09:hover {
+    background-image: url(img/images/Menu_09.png);
+    background-position: center;
+}
+
+.sprite-new_11 {
+    width: 60px;
+    height: 89px;
+    background-position: -421px -20px;
+}
+
+.sprite-new_11:hover {
+    background-image: url(img/images/Menu_11.png);
+    background-position: center;
+}
+
+.sprite-new_13 {
+    width: 60px;
+    height: 89px;
+    background-position: -521px -20px;
+}
+
+.sprite-new_13:hover {
+    background-image: url(img/images/Menu_13.png);
+    background-position: center;
+}
+
+
+
+
+
+
+
+.dashboard {
+    background-color: #33cc66;
+    height:70px;
+    color:white;
+    padding-top: 15px;
+    border-radius: 5px
+}
+
+.searchbar {
+    height:35px;
+    float: right;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.searchicon {
+    float:right;
+    padding-top: 3px;
+}
+
+.searchform {
+    width: 100px;
+}
+
+.dashrow{
+    padding-right: 15px;
+}
+
+.test {
+    background-color:red;
+}
+.test1 {
+    background-color: blue;
+}
+.test2 {
+    background-color: fuchsia;
+}
+.test3 {
+    background-color: burlywood;
+}
+
+.settingtask {
+    float:right;
+    padding-top: 10px;
+}
+
+.task-row {
     padding-top: 15px;
 }
 
-.icony {
-   margin-left: 10px;
-   margin-right: 10px;
-
+.grayball {
+    background-image: url(img/grayball.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 5px;
+    padding-left: 13px;
+    padding-bottom: 5px;
 }
 
+.greenball {
+    background-image: url(img/greenball.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 5px;
+    padding-left: 12px;
+    padding-bottom: 5px;
+}
 
-.l {
-    background-color: aquamarine;
+.article {
+    margin:0;
+}
+
+.re-row {
+    padding-top: 10px;
+}
+
+.date {
+    float: right;
+}
+
+.bar-graph{
+    float: center;
+    padding-left: 35px;
+}
+
+.social-media {
+    padding-left: 35px;
+}
+
+.cc {
+    padding-top: 40px;
+    padding-left: 40px;
+    border-bottom-color: aqua;
+    border-bottom: 10px;
+    margin-bottom: 20px;
 }
