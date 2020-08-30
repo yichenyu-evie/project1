@@ -33,6 +33,10 @@ body{
 
 /*icons above*/
 
+.lili {
+    padding: 0;
+    
+}
 .icon-header {
     height: 120px;
     background-image: url(img/menubackground.png);
@@ -40,19 +44,17 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     padding: 0;
-    margin-left: -200px;
-    margin-right: -200px;
+    margin: 0;
+    
 }
 
 .icons {
     text-align: center;
-    padding-top: 31px;
+    padding: 28px 0 0 0;
     margin: auto;
-    padding-left: 0;
-    padding-right: 0; 
+    
+    
 }
-
-
 
 .sprite {
     background-image: url(img/spritesheet-4.png);
@@ -67,12 +69,23 @@ body{
     height: 73px;
     background-position: -20px -20px;
     margin-right:15px;
+    margin-left: auto;
+    
 }
 
 .sprite-Menu_030:hover {
     background-image: url(img/Menu_03.png);
     background-position: center;
 }
+
+/*
+.lululululu.sprite-Menu_030:hover + row.lilili.tri-1{
+    background-image: url(img/triangle.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}*/
+
+
 
 .sprite-Menu_050 {
     width: 61px;
@@ -131,24 +144,39 @@ body{
     height: 73px;
     background-position: -519px -20px;
     margin-left:15px;
+    margin-right: auto;
 }
 
 .sprite-Menu_130:hover {
     background-image: url(img/Menu_13.png);
     background-position: center;
 }
-.iamtired {
-    padding: 0;
-}
+
 /*triangle*/
 
-.triangle {
-   padding-left: 35px;
+.triangle-icon {
+    padding-right: 23px;
+    margin: 0;
+    padding-top: 5px;
+    position: relative; 
+    display: inline-block;
+    
 }
 
-.tie:hover + .hover-1 {
-  display: block;
+.lilili {
+    padding-right: 445px;
 }
+
+.tri-1 {
+    background-color: transparent;
+}
+
+
+/*.tri-1:hover {
+    background-image: url(img/triangle.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}*/
 
 /*
 
@@ -332,6 +360,11 @@ h6.ann {
     margin:auto;
 }
 
+.butbut:hover {
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+
 button {
     display: inline-block;
     
@@ -494,10 +527,17 @@ button {
 
 .re-row:hover .article{
     color:#2498f4;
+    font-weight: bold;
 }
 
 .re-row:hover .re-text{
     color:#2498f4;
+    font-weight: bold;
+}
+
+.re-row:hover {
+    transform:  scale(1.1);
+    transition: 0.3s;
 }
 
 
@@ -607,13 +647,18 @@ button:active, button:focus {
     height: 100px;
 }
 
+
+
 /*social media*/
 
 .social-media {
     text-align: center;
     margin: auto;
-  
+    padding: 0;
+    
 }
+
+
 
 .social-media-icon {
     border-width: 2px;
@@ -848,6 +893,11 @@ button:active, button:focus {
     margin:0;
 }
 
+.zuo:hover .zuozuo {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
 .you {
     padding: 0;
     margin-top:70px ;
@@ -868,6 +918,11 @@ button:active, button:focus {
     background-color: transparent;
     padding: 10px 0 10px 10px;
     margin:0;
+}
+
+.you:hover .youyou {
+    transform: scale(1.1);
+    transition: 0.3s;
 }
 
 /*ad*/
@@ -901,6 +956,11 @@ button:active, button:focus {
 .see-big {
     text-align: center;
     background-color: #2498f4;
+}
+
+.see-big:hover {
+    transform: scale(1.04);
+    transition: 0.5s;
 }
 
 .di-in-see {
@@ -950,7 +1010,10 @@ button:active, button:focus {
 }
 
 /*watch*/
-
+.watch-big:hover {
+    transform: scale(1.04);
+    transition: 0.5s;
+}
 .watch {
     background-color: white;
     text-align: center;
@@ -988,6 +1051,11 @@ button:active, button:focus {
 }
 
 /*version*/
+
+.ver-big:hover {
+    transform: scale(1.04);
+    transition: 0.5s;
+}
 
 .version {
     background-color: white;
@@ -1057,10 +1125,20 @@ button:active, button:focus {
     color: #999999;
 }
 
+.words:hover {
+    color:#2498f2;
+    text-decoration: none;
+}
+
+.words:visited {
+    text-decoration: none;
+}
+
 .supports {
     border-width: 0 1px 0 1px;
     border-style: solid;
     border-color: #dddddd;
+    height: 30px;
 }
 
 .ariel-col {
@@ -1084,7 +1162,7 @@ button:active, button:focus {
 }
 
 .ariel a:visited {
-    color: #ff9b13;  
+    text-decoration: none;
 }
 
 .footer-button {
@@ -1108,7 +1186,7 @@ button:active, button:focus {
 }
 
 .log-link:visited{
-    color: #ff9b13;
+    text-decoration: none;
 }
 
 .footer-social-media {
