@@ -1159,6 +1159,7 @@ button:active, button:focus {
 
 .ariel a:hover {
     text-decoration: none;
+    color: black;
 }
 
 .ariel a:visited {
@@ -1183,6 +1184,10 @@ button:active, button:focus {
 
 .log-link:hover {
     text-decoration: none;
+}
+
+.logout-text:hover {
+    color: black;
 }
 
 .log-link:visited{
