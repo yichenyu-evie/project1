@@ -15,7 +15,7 @@ body{
     color:white;
     padding-top: 11px;
     display:block;
-    
+
 }
 
 .top-button {
@@ -35,25 +35,25 @@ body{
 
 .lili {
     padding: 0;
-    
+
 }
 .icon-header {
     height: 120px;
     background-image: url(img/menubackground.png);
-    background-position: center; 
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     padding: 0;
     margin: 0;
-    
+
 }
 
 .icons {
     text-align: center;
     padding: 28px 0 0 0;
     margin: auto;
-    
-    
+
+
 }
 
 .sprite {
@@ -61,7 +61,7 @@ body{
     background-repeat: no-repeat;
     display: block;
     margin: auto;
-    
+
 }
 
 .sprite-Menu_030 {
@@ -70,7 +70,7 @@ body{
     background-position: -20px -20px;
     margin-right:15px;
     margin-left: auto;
-    
+
 }
 
 .sprite-Menu_030:hover {
@@ -158,9 +158,9 @@ body{
     padding-right: 23px;
     margin: 0;
     padding-top: 5px;
-    position: relative; 
+    position: relative;
     display: inline-block;
-    
+
 }
 
 .lilili {
@@ -277,7 +277,7 @@ body{
     background-color: white;
     border-radius: 3px;
     padding-left: 20px
-    
+
 }
 
 .form-row {
@@ -289,7 +289,7 @@ body{
     margin-left: 15px;
     margin-top: 3px;
     border-color: transparent;
-    
+
 }
 
 .searchbut {
@@ -298,8 +298,8 @@ body{
     border-radius: 3px;
 }
 .dashrow{
-    padding-right: 15px; 
-    
+    padding-right: 15px;
+
 }
 
 /*bigbody*/
@@ -322,7 +322,7 @@ body{
 
 /*announcements*/
 
-.firstline { 
+.firstline {
    background: white;
 }
 
@@ -331,7 +331,7 @@ body{
     color:#fe7f13;
     border-width: 2px 1px 1px 2px;
     border-style: solid;
-    border-color: #eeeeee; 
+    border-color: #eeeeee;
 }
 
 h6.ann {
@@ -343,7 +343,8 @@ h6.ann {
     border-width: 2px 1px 1px 1px;
     border-style: solid;
     border-color: #eeeeee;
-    padding-top: 18px;
+    padding-top: px;
+    padding-left: 0;
 }
 
 .annbut {
@@ -351,7 +352,7 @@ h6.ann {
     border-style: solid;
     border-color: #eeeeee;
     padding-top: 15px;
-    padding-bottom: 15px
+    padding-bottom: 15px;
 }
 
 .butbut {
@@ -367,7 +368,51 @@ h6.ann {
 
 button {
     display: inline-block;
-    
+
+}
+
+#slides {
+overflow: hidden;
+position: relative;
+width: 100%;
+height: ;
+float: left;
+padding-left: px;
+}
+
+#slides ul {
+list-style: none;
+width: 100%;
+height:;
+margin: 0;
+padding: 0;
+position: relative;
+float: left;
+}
+
+
+
+ #slides li {
+width:100%;
+height:;
+float:left;
+text-align: center;
+position: relative;
+font-family:lato, sans-serif;
+}
+
+.quote-phrase {
+  float: left;
+  padding-left: 15px;
+}
+
+.quoteContainer {
+  padding-left: 0;
+}
+
+#buttons {
+  display: inline-block;
+  padding-left: 30px;
 }
 
 /*test bg color*/
@@ -419,8 +464,8 @@ button {
 
 .ballclass {
     padding-top: 8px;
-   
-    
+
+
 }
 
 .greenball {
@@ -447,7 +492,7 @@ button {
     padding-bottom: 19px;
     padding-left: 6px;
     padding-right: 6px;
-    
+
 }
 
 .numberof {
@@ -468,7 +513,7 @@ button {
     width: 65px;
     border-radius: 5px;
     color: #2498f4;
-    padding-top: 5px; 
+    padding-top: 5px;
 }
 
 
@@ -515,7 +560,7 @@ button {
     border-width: 0px 0px 1px 0px;
     border-style:dotted;
     border-color: #eeeeee;
-    
+
 }
 
 .re-text {
@@ -547,7 +592,7 @@ button {
 
 
 .analytics {
-    
+
     padding-bottom: 30px;
 }
 .ana-row {
@@ -571,7 +616,7 @@ button {
     border-width: 1px 1px 1px 1px;
     border-color: #eeeeee;
     border-radius: 5px;
-    height: 35px; 
+    height: 35px;
     display: block;
     color: #666666;
     font-size: 15px;
@@ -579,7 +624,7 @@ button {
     padding-left: 20px;
     padding-right: 40px;
     appearance: none;
-    background-image: url(img/images/images/arrow4_03.png); 
+    background-image: url(img/images/images/arrow4_03.png);
     background-position: center right;
     background-repeat: no-repeat;
     /*-webkit-appearance: button;
@@ -616,7 +661,7 @@ button:active, button:focus {
 }
 
 .bar-graph{
-   text-align: center; 
+   text-align: center;
    width: 100%;
 }
 
@@ -625,7 +670,7 @@ button:active, button:focus {
 }
 
 .pie-chart {
-    margin: auto auto; 
+    margin: auto auto;
 }
 
 .pie-text {
@@ -649,13 +694,15 @@ button:active, button:focus {
 
 
 
+
+
 /*social media*/
 
 .social-media {
     text-align: center;
     margin: auto;
     padding: 0;
-    
+
 }
 
 
@@ -677,7 +724,7 @@ button:active, button:focus {
     box-shadow: 0 0 0 1px #e7e7e7;
     margin:auto;
     vertical-align:middle;
-    
+
 }
 
 
@@ -717,7 +764,7 @@ button:active, button:focus {
     padding-right: 15px;
     margin-right: 10px;
     margin-left: 5px;
-    
+
 }
 
 .twitter{
@@ -769,7 +816,7 @@ button:active, button:focus {
     padding-left: 50px;
     padding-right: 50px;
     min-height: 300px;
-    
+
 }
 
 .di-in-di {
@@ -783,7 +830,7 @@ button:active, button:focus {
     box-shadow: 0px 5px 5px 1px #d9d9d9;
     z-index: 100;
     position: relative;
-    margin: auto;  
+    margin: auto;
 }
 
 .banner {
@@ -798,7 +845,7 @@ button:active, button:focus {
     margin-bottom: -90px;
     margin-left: auto;
     margin-right: auto;
-    
+
 }
 
 .ribbon-left-side {
@@ -832,7 +879,7 @@ button:active, button:focus {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    
+
 }
 
 .chart {
@@ -874,7 +921,7 @@ button:active, button:focus {
 .zuo {
     padding: 0;
     margin-top:70px ;
-    margin-bottom: 70px; 
+    margin-bottom: 70px;
 }
 
 .zuozuo {
@@ -883,7 +930,7 @@ button:active, button:focus {
     height: 50px;
     width: 25px;
     border-radius: 0px 150px 150px 0px;
-    
+
 }
 
 .zuozuozuo {
@@ -901,7 +948,7 @@ button:active, button:focus {
 .you {
     padding: 0;
     margin-top:70px ;
-    margin-bottom: 70px; 
+    margin-bottom: 70px;
 }
 
 .youyou {
@@ -910,7 +957,7 @@ button:active, button:focus {
     height: 50px;
     width: 25px;
     border-radius: 150px 0px 0px 150px;
-    
+
 }
 
 .youyouyou {
@@ -938,14 +985,14 @@ button:active, button:focus {
 }
 
 .ad-img {
-    
+
 }
 
 .white {
     min-height: 160px;
     width: 100%;
     background-color: white;
-    border-radius: 5px; 
+    border-radius: 5px;
     position: relative;
     z-index: 10;
 }
@@ -975,7 +1022,7 @@ button:active, button:focus {
     box-shadow: 0px 2px 2px 1px gray;
     z-index: 100;
     position: relative;
-    margin: 0 auto 10px auto;  
+    margin: 0 auto 10px auto;
 }
 
 .see-text {
@@ -991,7 +1038,7 @@ button:active, button:focus {
     margin-bottom: -95px;
     margin-left: auto;
     margin-right: auto;
-    
+
 }
 .cc-see-text{
     color:white;
@@ -1006,7 +1053,7 @@ button:active, button:focus {
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;  
+    text-align: center;
 }
 
 /*watch*/
@@ -1031,7 +1078,7 @@ button:active, button:focus {
 
 .watch-pic {
     position: relative;
-    margin-left: -61px; 
+    margin-left: -61px;
 }
 
 .watch-text {
@@ -1043,7 +1090,7 @@ button:active, button:focus {
     top: 50px;
     right: 0;
 }
-    
+
 .watch-title {
     color: #33cc66;
     font-size: 20px;
@@ -1083,9 +1130,9 @@ button:active, button:focus {
     margin-left: 20px;
     position: absolute;
     font-size: 16px;
-    top: 50px;  
+    top: 50px;
 }
-    
+
 .ver-title {
     color: #fe7f13;
     font-size: 20px;
@@ -1103,12 +1150,12 @@ button:active, button:focus {
     border-color: #fcfcfc;
     box-shadow: 0 -10px 15px -10px gray;
     height: 60px;
-    
+
 }
 
 .three-words {
     text-align: center;
-    
+
 }
 
 .words-di {
@@ -1204,7 +1251,7 @@ button:active, button:focus {
     text-align: center;
     padding-left: 25px;
     padding-right: 25px;
-    
+
 }
 
 .facebook-for-hover:hover {

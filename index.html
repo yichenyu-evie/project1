@@ -7,13 +7,14 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    
+
     <!--Custom CSS-->
+    <link href="https://cdn.jsdelivr.net/gh/StephanWagner/jBox@v1.2.0/dist/jBox.all.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
     <link rel="stylesheet" href="styles.css">
 
     <!--font-->
-    <link href="//db.onlinewebfonts.com/c/3dd6e9888191722420f62dd54664bc94?family=Myriad+Pro" rel="stylesheet" type="text/css"/>
-      
+
     <title>MEJO487 Project 1</title>
   </head>
   <body>
@@ -21,48 +22,48 @@
 <div class="container-fluid mini">
      <div class="container ">
       <div class="row">
-         
+
        <div class="col minitext text-right">
         <h6>MINI of Raleigh</h6>
        </div>
           <div class=""> <img class="spacer" src="img/images/spacer-3_05.png" alt="spacer"> </div>
-          
+
        <div class=" help text-right">
         <button type="button" class="top-button"><img  src="img/help.png" height="25" width="25" alt="help"></button>
        </div>
-          
+
           <div class=""> <img class="spacer" src="img/images/spacer-3_05.png" alt="spacer"> </div>
-          
+
        <div class=" settings text-right">
         <button type="button" class="top-button"><img src="img/settings.png" height="25" width="25" alt="setting"></button>
-       </div> 
-          
+       </div>
+
     </div>
-   </div> 
+   </div>
 </div>
-        
+
         <!--icon header-->
    <div class="container-fluid lili">
     <div class="row icon-header">
         <div class="col icons">
            <div class="row lululululu">
-    
+
            <i class="sprite sprite-Menu_030"></i>
            <i class="sprite sprite-Menu_050"></i>
            <i class="sprite sprite-Menu_070"></i>
            <i class="sprite sprite-Menu_090"></i>
            <i class="sprite sprite-Menu_110"></i>
            <i class="sprite sprite-Menu_130"></i>
-               
+
               <!-- <i class="sprite sprite-new_03"></i>
                <i class="sprite sprite-new_05"></i>
                <i class="sprite sprite-new_07"></i>
                <i class="sprite sprite-new_09"></i>
                <i class="sprite sprite-new_11"></i>
                <i class="sprite sprite-new_13"></i>-->
-            
+
                </div>
-            
+
             <div class="row">
               <div class="col lilili">
                 <img class="triangle-icon tri-1" src="img/triangle.png" alt="triangle">
@@ -74,8 +75,8 @@
                 </div>
             </div>
         </div>
-            
-        
+
+
       </div>
     </div>
       <br>
@@ -85,7 +86,7 @@
       <div class="col-9 dashtext">
       <h2>Dashboard</h2>
       </div>
-      
+
       <div class="col-3">
           <div class="row form-row">
           <form class="" method="post">
@@ -99,32 +100,59 @@
        </div>
      </div>
  </div>
-     
+
       <br>
-      
+
       <!--body-->
-<div class="container bigbody">   
+<div class="container bigbody">
 <div class="container">
     <div class="row firstline">
-        
+
         <!--announcements row-->
          <div class="col-md-2 ann">
              <p>ANNOUNCEMENTS</p>
             </div>
         <div class="col-lg-9 anntext">
-            <p>Soccis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus sagittis lacus</p>
+          <div class="col" id="slides">
+            <ul>
+              <li class="slide">
+                <div class="quoteContainer">
+                   <p class="quote-phrase">Soccis natoque penatibus et magnis dis  Vivamus sagittis parturient montes, nascetur ridiculus mus<p>
+                </div>
+              </li>
+              <li class="slide">
+                <div class="quoteContainer">
+                   <p class="quote-phrase">parturient montes, nascetur ridiculus mus et magnis dis<p>
+                </div>
+              </li>
+              <li class="slide">
+                <div class="quoteContainer">
+                  <p class="quote-phrase">Vivamus sagittis lacus Soccis natoque penatibus et magnis dis<p>
+                </div>
+            </li>
+            <li class="slide">
+              <div class="quoteContainer">
+                <p class="quote-phrase">The last slider<p>
+              </div>
+          </li>
+          </ul>
+      </div>
             </div>
         <div class="col-lg-1 annbut">
             <div class="row">
-                <button type="button" class="butbut" id="btn1"><img src="img/nav-left.png" alt="nav-left"></button>
-                <button type="button" class="butbut" id="btn2"><img src="img/nav-right.png" alt="nav-right"></button>
+               <div id="buttons">
+                 <a id="btn1" href="#"><</a>
+                 <a id="btn2" href="#">></a>
+               </div>
+                <!-- <button type="button" class="butbut" id="btn1"><img src="img/nav-left.png" alt="nav-left"></button>
+                <button type="button" class="butbut" id="btn2"><img src="img/nav-right.png" alt="nav-right"></button> -->
             </div>
-        </div>   
-    </div> 
+        </div>
+    </div>
 
 
    <div class="row lgbody">
-       
+
      <div class="col-md-4 whole-left">
          <!--task-->
       <div class="task">
@@ -136,25 +164,25 @@
               <a href="#"><img class="settingtask" src="img/settingstask.png" alt="setting-task"></a>
             </div>
         </div>
-        
+
         <div class="row task-row">
             <div class="col-2 ballclass ">
               <p class="greenball">1</p>
             </div>
-            
+
             <div class="col-7 tasktext">
               <h5>Welcome Contacts</h5>
             </div>
-            
+
             <div class="col-3 bigpplmun">
               <div class="row pplnum">
                <img class="iconppl" src="img/iconppl.png" alt="people-icon">
                  <p class="numberof">32</p>
             </div>
-              
+
             </div>
         </div>
-          
+
         <div class="row task-row">
             <div class="col-2 ballclass">
               <p class="greenball">2</p>
@@ -167,10 +195,10 @@
                <img class="iconppl" src="img/iconppl.png" alt="people-icon">
                  <p class="numberof">36</p>
             </div>
-              
+
             </div>
         </div>
-          
+
         <div class="row task-row">
             <div class="col-2 ballclass">
               <p class="greenball">3</p>
@@ -183,10 +211,10 @@
                <img class="iconppl" src="img/iconppl.png" alt="people-icon">
                  <p class="numberof">36</p>
             </div>
-              
+
             </div>
         </div>
-          
+
         <div class="row task-row">
             <div class="col-2 ballclass">
               <p class="greenball">4</p>
@@ -199,10 +227,10 @@
                <img class="iconppl" src="img/iconppl.png" alt="people-icon">
                  <p class="numberof number-of-3">3</p>
             </div>
-              
+
             </div>
         </div>
-        
+
     </div>
     <br>
          <!--recommendations-->
@@ -217,9 +245,9 @@
                  <div class="col">
                      <p class="article">Article</p>
                      <h6 class="re-text">7 Steps to getting more Fans</h6>
-                 </div>    
+                 </div>
              </div>
-             
+
              <div class="row re-row">
                  <div class="col-2 re-icon">
                   <img class="re-icon" src="img/articlew_sha.png" alt="article">
@@ -227,9 +255,9 @@
                  <div class="col">
                      <p class="article">Article</p>
                      <h6 class="re-text">Increase traction with more interactions</h6>
-                 </div>    
+                 </div>
              </div>
-             
+
                <div class="row re-row">
                  <div class="col-2 re-icon">
                   <img class="re-icon" src="img/checklist_sha.png" alt="checklist">
@@ -237,9 +265,9 @@
                  <div class="col">
                      <p class="article">Checklist</p>
                      <h6 class="re-text">Creating a Promotion</h6>
-                 </div>    
+                 </div>
              </div>
-             
+
                <div class="row re-row">
                  <div class="col-2 re-icon">
                   <img class="re-icon" src="img/tip_sha.png" alt="tip">
@@ -247,14 +275,14 @@
                  <div class="col">
                      <p class="article">Tip</p>
                      <h6 class="re-text">Share More</h6>
-                 </div>    
+                 </div>
              </div>
-             
-             
+
+
          </div>
      </div>
-       
-       
+
+
      <div class="col-md-8 whole-right">
          <!--analytics-->
          <div class="analytics">
@@ -278,82 +306,87 @@
                      </form>
                     </div>
                  </div>
-                 
+
                  <div class="row bar-row">
                        <div class="col">
                      <img class="bar-graph" src="img/popandbar.png" alt="bar-graph">
-                    </div>    
+                    </div>
                  </div>
              </div>
-               
+
              <div class="col-3 pie-chart">
                <div class="row pie-text">
                  <div class="col"><p class="pie-title">CHANNELS</p></div>
                  <div class="col">
-                   <img class="pie-pic" src="img/channel.png" alt="channels">
+
+                   <span class="tooltips" ><img class="pie-pic" src="img/channel.png" alt="channels"></span>
+
                  </div>
                 </div>
-                 
+
                  <div class="row pie-text">
                  <div class="col"><p class="pie-title">REFERRALS</p></div>
                  <div class="col">
                    <img class="pie-pic" src="img/referral.png" alt="referral">
                  </div>
                 </div>
+
+
              </div>
+
            </div>
-             
+
              <div class="row social-media">
                <div class="col-11">
                 <form action="/action_page.php">
-                   
+
                  <input type="checkbox" class="social-media-icon" name="facebook" value="facebook-3">
                  <label class="facebook"> Facebook</label>
-                    
+
                  <input type="checkbox" class="social-media-icon" name="Twitter" value="Twitter">
                  <label class="twitter"> Twitter</label>
-                 
-                   
+
+
                  <input type="checkbox" class="social-media-icon" name="Foursquare" value="Foursquare">
                  <label class="foursquare"> Foursquare</label>
-                    
-                    
+
+
                  <input type="checkbox" class="social-media-icon" name="Google+" value="Google+">
                  <label class="google"> Google+</label>
                 </form>
                </div>
              </div>
          </div>
-       <!--contact&customer-->  
+       <!--contact&customer-->
          <div class="contacts&customers">
             <div class="row ccbig">
               <div class="col-lg-6 contact">
-                  
+
                   <img class="ppl-green" src="img/ppl-green.png" alt="people-icon-green">
-                  
+
                   <div class="row banner">
                       <img src="img/left.png" class="ribbon-left-side" alt="ribbon-left">
                            <div class="col">
                             <h5 class="cc-title">75 CONTACTS</h5>
                             <p class="cc-text">4 INFLUENCERS</p>
-                            </div> 
+                            </div>
                       <img src="img/right-ribbon.png" class="ribbon-right-side" alt="ribbon-right">
                         </div>
                   <div class="col di-in-di">
-                      
+
                        <!--<div class="row banner" id="forz">
                            <div class="col">
                             <h5 class="cc-title">75 CONTACTS</h5>
                             <p class="cc-text">4 INLUENCERS</p>
-                            </div> 
+                            </div>
                         </div>-->
                       <div class="row">
                         <img class="chart" src="img/chart-green.png" alt="green-chart">
                       </div>
                   </div>
-                  
+
               </div>
-                
+
                 <div class="col-lg-6 contact">
                   <img class="ppl-green" src="img/ppl-orange.png" alt="people-icon-orange">
                   <div class="row banner">
@@ -361,22 +394,22 @@
                            <div class="col">
                             <h5 class="cc-title">17 CUSTOMERS</h5>
                             <p class="cc-text">0 INFLUENCERS</p>
-                            </div> 
+                            </div>
                       <img src="img/right-ribbon.png" class="ribbon-right-side" alt="ribbon-right">
                         </div>
                   <div class="col di-in-di">
-                      
+
                        <!--<div class="row banner" id="forz">
                            <div class="col">
                             <h5 class="cc-title">75 CONTACTS</h5>
                             <p class="cc-text">4 INLUENCERS</p>
-                            </div> 
+                            </div>
                         </div>-->
                       <div class="row">
                         <img class="chart" src="img/chart-orange.png" alt="orange-chart">
                       </div>
                   </div>
-                  
+
               </div>
             </div>
          </div>
@@ -391,67 +424,67 @@
                 <p class="banner-text">Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
                 <p class="banner-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porta sem malesuada magna mollis euismod.</p>
              </div>
-             
+
                 <div class="col-1 you">
                <div class="youyou"><button type="button" class="youyouyou"><img class="" src="img/xiangyou.png" alt="right"></button></div>
              </div>
-             
+
                 </div>
          </div>
-         
+
      </div>
-      
+
    </div>
     <!--ad-->
     <div class="">
         <div class="row ad-big">
-         
+
             <div class="col-lg-4 watch-big">
-                
+
                 <div class="watch">
                   <img class="watch-pic" src="img/watch-picture.png" alt="watch-what-you-say">
                   <p class="watch-text">
                       <span class="watch-title">Watch what <br>you say.</span>
                       <br>Message Management</p >
                 </div>
-                
+
               </div>
-           
-            
+
+
            <div class="col-lg-4 see-big">
                   <img class="see-pic" src="img/see-pic.png" alt="see-what-others-are-doing-with-us">
                   <div class="row see-text">
                            <div class="col">
                             <p class="cc-see-text">See what others are doing with us.</p>
-                            </div> 
+                            </div>
                         </div>
                   <div class="col di-in-see">
                   </div>
               </div>
-            
-            
+
+
                  <div class="col-lg-4 ver-big">
-                
+
                 <div class="version">
                   <img class="ver-pic" src="img/version-picture.png" alt="version-2.0-is-coming">
                   <p class="ver-text">
                       <span class="ver-title">Version 2.0 <br> is coming</span>
                       </p >
                 </div>
-                
+
               </div>
-            
+
         </div>
-    
+
     </div>
 </div>
-    
-</div> 
+
+</div>
   <!--footer-->
-<footer>  
+<footer>
 <div class="container-fluid footer-bg">
     <div class="container">
-        
+
       <div class="row">
          <div class="col-lg-3  words-di">
              <div class="row three-words">
@@ -459,9 +492,9 @@
             <a href="#" class="col-4 words supports"><p class="">Supports</p></a>
             <a href="#" class="col-4 words"><p class="">Blog</p></a>
             </div>
-             
+
           </div>
-          
+
           <div class="col-lg-6 ariel-col">
               <div class="row">
                   <div class="col-11">
@@ -472,7 +505,7 @@
                   </div>
               </div>
           </div>
-          
+
           <div class="col-lg-3">
               <div class="row ">
                   <div class="col-6 logout-col">
@@ -481,34 +514,36 @@
                       <div class="col-7"><a href="#" class="log-link"><p class="logout-text" >Logout</p></a></div>
                     </div>
                   </div>
-                  
+
                   <div class="col-6 for-border">
                       <div class="row footer-icon-row">
                         <a href="#" class="footer-social-media"><img class="facebook-for-hover" src="img/facebook-icon.png" alt="facebook"></a>
                         <a href="#" class="footer-social-media"><img class="twitter-for-hover" src="img/twitter-icon.png" alt="twitter"></a>
                         <a href="#" class="footer-social-media"><img class="square-for-hover" src="img/square-icon.png" alt="foursquare"></a>
                         <a href="#" class="footer-social-media"><img class="youtube-for-hover" src="img/youtube-icon.png" alt="youtube"></a>
-                          
+
                       </div>
                   </div>
               </div>
           </div>
-        
-    
+
+
       </div>
     </div>
-    
+
 </div>
-        
-     
-</footer>   
-      
-      
+
+
+</footer>
+
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/StephanWagner/jBox@v1.2.0/dist/jBox.all.min.js"></script>
+    <script src="js/main.js"></script>
+
   </body>
 </html>
